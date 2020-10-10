@@ -16,7 +16,7 @@ Install-Package BWRSAUtilities
 
 >Use class `RsaKeyGenerator`. The result returned is a list of two-element strings, Element 1 is the private key and element 2 is the public key.
 
-Format: XML
+### Format: XML
 
 ```csharp
 List<string> keyList = RsaKeyGenerator.XmlKey(2048);
@@ -24,7 +24,7 @@ string privateKey = keyList[0];
 string publicKey = keyList[1];
 ```
 
-Format: Pkcs1
+### Format: Pkcs1
 
 ```csharp
 List<string> keyList = RsaKeyGenerator.Pkcs1Key(2048);
@@ -32,7 +32,7 @@ string privateKey = keyList[0];
 string publicKey = keyList[1];
 ```
 
-Format: Pkcs8
+### Format: Pkcs8
 
 ```csharp
 List<string> keyList = RsaKeyGenerator.Pkcs8Key(2048);
