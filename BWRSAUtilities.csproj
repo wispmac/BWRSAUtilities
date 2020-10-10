@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>.NET Foundation RSA algorithm supporting data encryption, decryption, signature and verification. It supports xml, pkcs1, pkcs8 and pem formats. It also supports key conversion between pkcs1, pkcs8 and xml formats.</Description>
+    <Copyright>BW Info Services LLP</Copyright>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="XC.BouncyCastle.Crypto" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
