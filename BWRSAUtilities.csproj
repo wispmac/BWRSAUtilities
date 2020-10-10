@@ -5,6 +5,13 @@
     <Description>.NET Foundation RSA algorithm supporting data encryption, decryption, signature and verification. It supports xml, pkcs1, pkcs8 and pem formats. It also supports key conversion between pkcs1, pkcs8 and xml formats.</Description>
     <Copyright>BW Info Services LLP</Copyright>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/wispmac/BWRSAUtilities</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>rsa, rsa-encryption, rsa-cryptography, rsa-algorithm, rsa-key-encryption, pkcs1, pkcs8</PackageTags>
+    <Authors>Wispmac Shah</Authors>
+    <Company>BW Info Services LLP</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
